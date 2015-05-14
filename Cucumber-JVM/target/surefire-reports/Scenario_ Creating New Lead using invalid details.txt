@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Creating New Lead using invalid details
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 95.313 sec <<< FAILURE! - in Scenario: Creating New Lead using invalid details
+Then I should be able to see the created new Lead(Scenario: Creating New Lead using valid details)  Time elapsed: 0.027 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<TestNGLNInfoCall_[vQN, TestNGFNInfoCall_vQN]> but was:<TestNGLNInfoCall_[LwkzK, TestNGFNInfoCall_LwkzK]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepsDefinations.NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead(NewLeadCreationStepDefination.java:156)
+	at ?.Then I should be able to see the created new Lead(features/NewLeadCreation.feature:9)
+
+Scenario: Creating New Lead using valid details  Time elapsed: 0.028 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<TestNGLNInfoCall_[vQN, TestNGFNInfoCall_vQN]> but was:<TestNGLNInfoCall_[LwkzK, TestNGFNInfoCall_LwkzK]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepsDefinations.NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead(NewLeadCreationStepDefination.java:156)
+	at ?.Then I should be able to see the created new Lead(features/NewLeadCreation.feature:9)
+
