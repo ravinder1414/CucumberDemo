@@ -54,6 +54,7 @@ public class NewLeadCreationStepDefination {
     public void beforeScenario() {
         driver=new FirefoxDriver();
         url = "http://10.78.58.44/Orion.aspx?r=http://10.78.58.44/Default.aspx";
+        driver.manage().window().maximize();
         
     }
 	
@@ -78,6 +79,7 @@ public class NewLeadCreationStepDefination {
         homePageObject.tabHome.click();
         
         homePageObject.tabAdmissions.click();
+        driver.manage().window().maximize();
 	    
 	}
 
@@ -145,6 +147,7 @@ driver.switchTo().window(mainwinhandle);
 	@Then("^I should be able to see the created new Lead$")
 	public void i_should_be_able_to_see_the_created_new_Lead() throws Throwable {
 		homePageObject = new HomePageObject(driver);
+		driver.manage().window().maximize();
 		driver.switchTo().frame("Orion");
 		homePageObject.tabAdmissions.click();
 		homePageObject.lnkAdmissionManager.click();
