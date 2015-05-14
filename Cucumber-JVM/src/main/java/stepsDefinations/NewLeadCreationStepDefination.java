@@ -179,6 +179,7 @@ driver.switchTo().window(mainwinhandle);
         @After
         public void afterScenario(Scenario scenario) {
             if (scenario.isFailed()) {
+            	driver.manage().window().setSize(new Dimension(1024, 768));
                 scenario.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES),"image/png");
             }
             driver.close();
