@@ -61,9 +61,7 @@ public class NewLeadCreationStepDefination {
 	public void i_am_on_Orion_CLS_Home_page() throws Throwable {
 		
 	driver.get(url);
-	//Runtime.getRuntime().exec("C:\\Login.exe");
 	
-		//driver.get(baseUrl + "/");
 		try {
 			Runtime.getRuntime().exec("C:\\Login.exe");
 			} catch (IOException e) {
