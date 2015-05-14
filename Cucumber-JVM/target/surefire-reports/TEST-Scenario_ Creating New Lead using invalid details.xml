@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Creating New Lead using invalid details" time="0.955" tests="12" errors="0" skipped="0" failures="2">
+<testsuite name="Scenario: Creating New Lead using invalid details" time="0.491" tests="12" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="cucumber.options" value="--tags @Smoke"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Cucumber-JVM"/>
+    <property name="user.dir" value="C:\CucumberDemo\Cucumber-JVM"/>
     <property name="java.runtime.version" value="1.7.0_79-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
@@ -60,23 +60,23 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="Given I am on Orion CLS Home page" classname="Scenario: Creating New Lead using valid details" time="0.001"/>
+  <testcase name="Given I am on Orion CLS Home page" classname="Scenario: Creating New Lead using valid details" time="0.008"/>
   <testcase name="When I click on Admission Link" classname="Scenario: Creating New Lead using valid details" time="0"/>
   <testcase name="And I click on Admission Manager and Add New Lead/Referral Link" classname="Scenario: Creating New Lead using valid details" time="0"/>
-  <testcase name="When I fill all the required details for New Referral" classname="Scenario: Creating New Lead using valid details" time="0.001"/>
-  <testcase name="Then I should be able to see the created new Lead" classname="Scenario: Creating New Lead using valid details" time="0.027">
-    <failure message="expected:&lt;TestNGLNInfoCall_[vQN, TestNGFNInfoCall_vQN]&gt; but was:&lt;TestNGLNInfoCall_[LwkzK, TestNGFNInfoCall_LwkzK]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<TestNGLNInfoCall_[vQN, TestNGFNInfoCall_vQN]> but was:<TestNGLNInfoCall_[LwkzK, TestNGFNInfoCall_LwkzK]>
+  <testcase name="When I fill all the required details for New Referral" classname="Scenario: Creating New Lead using valid details" time="0"/>
+  <testcase name="Then I should be able to see the created new Lead" classname="Scenario: Creating New Lead using valid details" time="0.001">
+    <failure message="expected:&lt;TestNGLNInfoCall_[gTm, TestNGFNInfoCall_gTm]&gt; but was:&lt;TestNGLNInfoCall_[envzV, TestNGFNInfoCall_envzV]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<TestNGLNInfoCall_[gTm, TestNGFNInfoCall_gTm]> but was:<TestNGLNInfoCall_[envzV, TestNGFNInfoCall_envzV]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepsDefinations.NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead(NewLeadCreationStepDefination.java:156)
+	at stepsDefinations.NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead(NewLeadCreationStepDefination.java:153)
 	at ✽.Then I should be able to see the created new Lead(features/NewLeadCreation.feature:9)
 ]]></failure>
   </testcase>
-  <testcase name="Scenario: Creating New Lead using valid details" classname="Scenario: Creating New Lead using valid details" time="0.028">
-    <failure message="expected:&lt;TestNGLNInfoCall_[vQN, TestNGFNInfoCall_vQN]&gt; but was:&lt;TestNGLNInfoCall_[LwkzK, TestNGFNInfoCall_LwkzK]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<TestNGLNInfoCall_[vQN, TestNGFNInfoCall_vQN]> but was:<TestNGLNInfoCall_[LwkzK, TestNGFNInfoCall_LwkzK]>
+  <testcase name="Scenario: Creating New Lead using valid details" classname="Scenario: Creating New Lead using valid details" time="0.001">
+    <failure message="expected:&lt;TestNGLNInfoCall_[gTm, TestNGFNInfoCall_gTm]&gt; but was:&lt;TestNGLNInfoCall_[envzV, TestNGFNInfoCall_envzV]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<TestNGLNInfoCall_[gTm, TestNGFNInfoCall_gTm]> but was:<TestNGLNInfoCall_[envzV, TestNGFNInfoCall_envzV]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepsDefinations.NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead(NewLeadCreationStepDefination.java:156)
+	at stepsDefinations.NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead(NewLeadCreationStepDefination.java:153)
 	at ✽.Then I should be able to see the created new Lead(features/NewLeadCreation.feature:9)
 ]]></failure>
   </testcase>
@@ -85,5 +85,5 @@
   <testcase name="And I click on Admission Manager and Add New Lead/Referral Link" classname="Scenario: Creating New Lead using invalid details" time="0"/>
   <testcase name="When I fill invalid details for New Referral" classname="Scenario: Creating New Lead using invalid details" time="0"/>
   <testcase name="Then I should be able to see error message" classname="Scenario: Creating New Lead using invalid details" time="0"/>
-  <testcase name="Scenario: Creating New Lead using invalid details" classname="Scenario: Creating New Lead using invalid details" time="0.898"/>
+  <testcase name="Scenario: Creating New Lead using invalid details" classname="Scenario: Creating New Lead using invalid details" time="0.481"/>
 </testsuite>

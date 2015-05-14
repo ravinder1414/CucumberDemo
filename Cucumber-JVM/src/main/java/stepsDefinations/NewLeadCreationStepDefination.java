@@ -1,22 +1,19 @@
 package stepsDefinations;
 
+import java.io.File;
 import java.io.IOException;
 
 
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.support.ui.Select;
-
-import pageObjects.ConfirmUserPageObject;
 import pageObjects.HomePageObject;
-import pageObjects.NewUserPageObject;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -31,8 +28,8 @@ public class NewLeadCreationStepDefination {
     String url;
     String baseUrl;
     HomePageObject homePageObject;
-    NewUserPageObject newUserPageObject;
-    ConfirmUserPageObject confirmUserPageObject;
+    //NewUserPageObject newUserPageObject;
+    //ConfirmUserPageObject confirmUserPageObject;
    
     
   //Static variable
@@ -176,12 +173,18 @@ driver.switchTo().window(mainwinhandle);
 	    
 	}
 	
-	@After
-    public void afterScenario(Scenario scenario) {
-        if (scenario.isFailed()) {
-            scenario.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png");
-        }
-        driver.close();
-        driver.quit();
+
+        @After
+        public void afterScenario(Scenario scenario) {
+            if (scenario.isFailed()) {
+                scenario.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES),"image/png");
+            }
+            driver.close();
+            driver.quit();
+		
 	}
 }
+	
+        
+        
+        

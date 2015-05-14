@@ -1,6 +1,5 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePageObject {
 
-    private WebDriver driver;
+    WebDriver driver;
 
     public HomePageObject (WebDriver driver) {
 
@@ -160,15 +159,5 @@ public WebElement DropDownMilitaryType;
 	   @FindBy(how=How.XPATH, using=".//*[@id='CtlApplyForm1_lblErrorMessage']")
 		
 	    public WebElement txtErrorMessage;
-	   
-	   
 
-	    public NewUserPageObject clickOnNewUserLink() {
-	        newUserLink.click();
-	        return new NewUserPageObject(driver);
-	        
-	       
-
-  
-}
 }

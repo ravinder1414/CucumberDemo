@@ -13,15 +13,7 @@ formatter.feature({
   "line": 2
 });
 formatter.before({
-  "duration": 6423208646,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 5370185983,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 7096518882,
+  "duration": 7055837058,
   "status": "passed"
 });
 formatter.scenario({
@@ -61,63 +53,45 @@ formatter.match({
   "location": "NewLeadCreationStepDefination.i_am_on_Orion_CLS_Home_page()"
 });
 formatter.result({
-  "duration": 9445572939,
+  "duration": 8395131216,
   "status": "passed"
 });
 formatter.match({
   "location": "NewLeadCreationStepDefination.i_click_on_Admission_Link()"
 });
 formatter.result({
-  "duration": 561952876,
+  "duration": 570014900,
   "status": "passed"
 });
 formatter.match({
   "location": "NewLeadCreationStepDefination.i_click_on_Admission_Manager_and_Add_New_Lead_Referral_Link()"
 });
 formatter.result({
-  "duration": 13206899026,
+  "duration": 7084076891,
   "status": "passed"
 });
 formatter.match({
   "location": "NewLeadCreationStepDefination.i_fill_all_the_required_details_for_New_Referral()"
 });
 formatter.result({
-  "duration": 9821442309,
+  "duration": 6865538786,
   "status": "passed"
 });
 formatter.match({
   "location": "NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead()"
 });
 formatter.result({
-  "duration": 5609996013,
+  "duration": 2112778731,
   "status": "failed",
-  "error_message": "org.junit.ComparisonFailure: expected:\u003cTestNGLNInfoCall_[vQN, TestNGFNInfoCall_vQN]\u003e but was:\u003cTestNGLNInfoCall_[LwkzK, TestNGFNInfoCall_LwkzK]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepsDefinations.NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead(NewLeadCreationStepDefination.java:156)\r\n\tat ✽.Then I should be able to see the created new Lead(features/NewLeadCreation.feature:9)\r\n"
+  "error_message": "org.junit.ComparisonFailure: expected:\u003cTestNGLNInfoCall_[gTm, TestNGFNInfoCall_gTm]\u003e but was:\u003cTestNGLNInfoCall_[envzV, TestNGFNInfoCall_envzV]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepsDefinations.NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead(NewLeadCreationStepDefination.java:153)\r\n\tat ✽.Then I should be able to see the created new Lead(features/NewLeadCreation.feature:9)\r\n"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 501446047,
-  "status": "passed"
-});
-formatter.embedding("image/png", "embedded1.png");
-formatter.after({
-  "duration": 347814339,
-  "status": "passed"
-});
-formatter.embedding("image/png", "embedded2.png");
-formatter.after({
-  "duration": 582097435,
+  "duration": 933626381,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5748349287,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 5664419049,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 5715698336,
+  "duration": 5594353923,
   "status": "passed"
 });
 formatter.scenario({
@@ -157,47 +131,39 @@ formatter.match({
   "location": "NewLeadCreationStepDefination.i_am_on_Orion_CLS_Home_page()"
 });
 formatter.result({
-  "duration": 6733018352,
+  "duration": 6871864433,
   "status": "passed"
 });
 formatter.match({
   "location": "NewLeadCreationStepDefination.i_click_on_Admission_Link()"
 });
 formatter.result({
-  "duration": 583524757,
+  "duration": 582107235,
   "status": "passed"
 });
 formatter.match({
   "location": "NewLeadCreationStepDefination.i_click_on_Admission_Manager_and_Add_New_Lead_Referral_Link()"
 });
 formatter.result({
-  "duration": 4920141374,
+  "duration": 4790441633,
   "status": "passed"
 });
 formatter.match({
   "location": "NewLeadCreationStepDefination.i_fill_invalid_details_for_New_Referral()"
 });
 formatter.result({
-  "duration": 5777976542,
+  "duration": 3078993063,
   "status": "passed"
 });
 formatter.match({
   "location": "NewLeadCreationStepDefination.i_should_be_able_to_see_error_message()"
 });
 formatter.result({
-  "duration": 187772282,
+  "duration": 187676031,
   "status": "passed"
 });
 formatter.after({
-  "duration": 224421345,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 267437705,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 406052433,
+  "duration": 480563677,
   "status": "passed"
 });
 });
