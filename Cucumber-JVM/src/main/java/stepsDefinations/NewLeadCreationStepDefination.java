@@ -8,6 +8,7 @@ import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Assert;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -147,7 +148,7 @@ driver.switchTo().window(mainwinhandle);
 	@Then("^I should be able to see the created new Lead$")
 	public void i_should_be_able_to_see_the_created_new_Lead() throws Throwable {
 		homePageObject = new HomePageObject(driver);
-		driver.manage().window().maximize();
+		driver.manage().window().setSize(new Dimension(1024, 768));
 		driver.switchTo().frame("Orion");
 		homePageObject.tabAdmissions.click();
 		homePageObject.lnkAdmissionManager.click();
